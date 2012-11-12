@@ -1,13 +1,9 @@
 /*
  * Implement the Caesar's cipher.
  *
- * c(i)=(p(i)+k)%26;
  *
  * ASCII -- (65,66,67.......90)  ||  (97,98,99...122)
  *
- * (((i%65)%26)+65).
- *
- * (((i%97)%26)+97).
  *
  *
  */
@@ -41,19 +37,5 @@ int main(int argc, char *argv[]) {
     else  
       printf("%c",ch[i]);
   }
-  /*for(int i=65,j=0;i<98;i++) {
-    printf("\nnum[%d]:- %d || %d",j,i,((i%65)%26)+65);
-    j++;
-    }*/
-  
-  /*  for(int i=97,j=0;i<=132;i++) {
-    printf("\nNum[%d]:- %d || %d",j,i,(((i%97)%26))+97);
-    j++;
-    }*/
-
-  
-  //  for(int i=0;i<len;i++) {
-  //    printf("%c",(int)ch[i]%65
-  //  }
   return 0;
 }
